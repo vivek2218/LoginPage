@@ -1,0 +1,96 @@
+/* Global styling for body */
+body {
+    background-color: #1d1f21;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Form container styling */
+form {
+    background-color: #2c2f33;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #1c1e22;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.1em;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(255, 204, 0, 0.8);
+}
+
+/* Button styling */
+button {
+    background-color: #ffcc00;
+    color: #2c2f33;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f7b500;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Label styling */
+label {
+    color: #ffffff;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+/* Reset button */
+button[type="reset"] {
+    background-color: #ff4757;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover {
+    background-color: #e84118;
+}
+
+button[type="reset"]:active {
+    transform: scale(0.95);
+}
